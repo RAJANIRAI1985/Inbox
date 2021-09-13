@@ -1,4 +1,18 @@
-pragma solidity ^0.4.17;
-// linter warnings (red underline) about pragma version can igonored!
+pragma solidity ^0.4.26;
 
-// contract code will go here
+contract inbox {
+    string public message; 
+    
+    function Inbox(string InitialM) public {
+        message = InitialM;
+    }
+    function setMessage(string NewM) public {
+        message = NewM;
+        }
+    function doMath(int A, int B){
+        A+B;
+        A-B;
+        A*B;
+        A=0;
+    }
+}
