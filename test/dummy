@@ -1,1 +1,26 @@
-# This is dummy file
+// This is dummy file
+// Mocha test case
+
+let car;
+
+beforeEach(() => {
+  //console.log('next car starting');
+ car = New Car;
+});
+
+Class Car {
+  park{
+  return "stopped";
+  }
+  drive{
+  return "speed";
+  }
+}
+describe('car class test result i got',() => {
+  it('can has a park function',=> {
+     asset.equal(car.park(),"stopped");
+     });
+it('can has a drive function',=> {
+     asset.equal(car.drive(),"speed");
+     });
+});      
